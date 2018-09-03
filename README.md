@@ -1,12 +1,11 @@
-# TRABALHO 01:  Título do Trabalho
-Trabalho desenvolvido durante a disciplina de BD1
+# TRABALHO 01:  Managua - Monitorando A Balneabilidade das Praias Utilizando Sensores
+Trabalho desenvolvido durante a disciplina de BD1 no semestre 2018/2 com o Professor Moisés Omena
 
 # Sumário
 
 ### 1. COMPONENTES<br>
-Integrantes do grupo<br>
-primeiro_componente_do_grupo:email_primeiro_componente@dominio.com<br>
-segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
+
+Anne Caroline Silva: carolinesilva4@hotmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
