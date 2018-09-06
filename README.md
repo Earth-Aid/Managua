@@ -26,7 +26,7 @@ Existirão os seguintes sensores para monitoramento os dados meteorológicos: te
 
 Observamos que, conhecer o índice de radiação solar é um fator importante que deve ser considerado da mesma forma que se consulta a previsão do tempo cotidianamente. Por isso que este parâmetro deve ser visto com destaque no sistema proposto.
 
-A seguinte tabela apresenta o intervalo de valores que os sensores são capaz de medir:
+A seguinte tabela apresenta o intervalo de valores que os sensores são capazes de medir:
 
 Parâmetro | Sensor | Intervalo | Grandeza
 ------------ | ------------- |------------ | ------------- 
