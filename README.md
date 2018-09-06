@@ -1,4 +1,4 @@
-# TRABALHO 01:  Managua - Monitorando A Balneabilidade das Praias Utilizando Sensores
+# Managua - Monitorando A Balneabilidade das Praias Utilizando Sensores
 Trabalho desenvolvido durante a disciplina de BD1 no semestre 2018/2 com o Professor Moisés Omena
 
 # Sumário
@@ -9,21 +9,44 @@ Anne Caroline Silva: carolinesilva4@hotmail.com<br>
 
 ### 2. INTRODUÇÃO E MOTIVAÇAO<br>
 
-Cidades litorâneas se esforçam em medir a balneabilidade dos locais para banho e divulgá-las com melhor precisão e atualizar com maior frequência para seu público, seja ele local ou turista, especialmente na alta temporada. Atualmente esse processo é realizado manualmente e pouco eficaz sendo que o status, seja ele positivo ou negativo, de uma praia estar boa ou não para banho, muitas vezes é divulgado com atraso significativo.
+Cidades litorâneas se esforçam em medir a balneabilidade dos locais para banho e divulgá-las com melhor precisão e atualizar com maior frequência para seu público, seja ele local ou turista, especialmente na alta temporada. Atualmente esse processo [1] é realizado manualmente e pouco eficaz sendo que o status, seja ele positivo ou negativo, de uma praia estar boa ou não para banho, muitas vezes é divulgado com atraso significativo.
 
-Visando tornar a qualidade do processo mais eficiente, propõe-se um sistema automatizado que utiliza um conjunto de sensores para coletar os dados referentes à salinidade, temperatura, oxigênio dissolvido, condutividade elétrica, ph, Escherichia coli e coliformes fecais e disponibilizar essas informações para o público. O sistema deverá gerar um conjunto de relatórios que por sua vez atenderá tanto o público geral quanto cientistas e pesquisadores.
+Visando tornar a qualidade do processo mais eficiente, propõe-se um sistema automatizado que utiliza um conjunto de sensores para coletar os dados referentes à salinidade, temperatura, oxigênio dissolvido, condutividade elétrica, ph, Escherichia coli e coliformes fecais, dados meteorológicos e de radiação solar e disponibilizar essas informações para o público. O sistema deverá gerar um conjunto de relatórios que por sua vez atenderá tanto o público geral quanto cientistas e pesquisadores.
 
-Espera-se que a melhoria do processo aumente a confiabilidade e seja um fator decisório das pessoas em relação ao local desejado para banhar-se, que as prefeituras vejam como um instrumento atrativo de potenciais turistas e que cientistas e pesquisadores tenham dados confiáveis.
+Espera-se que a melhoria do processo aumente a confiabilidade e seja um fator decisório das pessoas em relação ao local desejado para banhar-se e ao índice de radiação solar, que as prefeituras vejam como um instrumento atrativo de potenciais turistas, que cientistas e pesquisadores tenham dados confiáveis e que seja uma ferramenta para escolhas mais inteligentes e saudáveis.
+
 
 ### 3.MINI-MUNDO Novo<br>
 
-Descrever o mini-mundo! (Não deve ser maior do que 30 linhas) <br>
-Entrevista com o usuário e identificação dos requisitos.<br>
-Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
-cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
-gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
+A empresa Earth Aid propõe um sistema chamado Managua [2] para automatizar a coleta de informações sobre a qualidade da água de praias utilizando um sistema formado de sensores e microcomputadores. 
 
-> O sistema proposto para a "Devcom Projetos conterá as informacões aqui detalhadas. Dos Projetos serão armazenados o número, nome e cidade. Dos Departamentos serão armazenados o número e nome. O cliente destacou que cada projeto pode ter vários departamentos auxiliando no seu desenvolvimento, e cada departamento pode estar envolvido em vários projetos. Os dados relativos aos empregados que serão armazenados são: rg, nome, cpf, salário, data inicial do salario e supervisor de cada empregado. É importante destacar que cada empregado pode ser supervisionado por outro empregado, e obrigatoriamente deve estar alocado a um único departamento, mas pode gerenciar vários departamentos ou não gerenciar nenhum. Um empregado também pode participar de vários projetos, caso seja necessário, mas não precisa obrigatoriamente estar alocado em algum projeto. Com relação aos dependentes serão armazenadas as informações de nome do dependente, data de nascimento, sexo e grau de parentesco. Cada empregado pode ter vários dependentes, mas um dependente esta associado apenas a um único empregado. Com relação ao histórico de salário devemos armazenar as informações de valor do salário, data de início do salário no período e data final do salário no período. É importante lembrar que cada funcionario pode ter diversos eventos de histórico de salário associados a ele visto que este dado pode ser alterado várias vezes. 
+Bóias serão posicionadas a cada 200 metros de distância, no mínimo, e equipadas com sensores para medir salinidade, temperatura, oxigênio dissolvido, turbidez, condutividade elétrica, ph, Escherichia coli e coliformes fecais, que são os principais parâmetros de avaliação da balneabilidade. A frequência com que as informações são captadas pode variar no decorrer do ano dependendo das épocas de maior ou menor movimento turístico. 
+
+Existirão os seguintes sensores para monitoramento os dados meteorológicos: termômetro, barômetro, higrômetro, anemômetro, pluviômetro e piranômetro para medir respectivamente, a temperatura do ar, pressão atmosférica, umidade relativa do ar, velocidade e direção do vento, precipitação pluviométrica e radiação solar. 
+
+Observamos que, conhecer o índice de radiação solar é um fator importante que deve ser considerado da mesma forma que se consulta a previsão do tempo cotidianamente. Por isso que este parâmetro deve ser visto com destaque no sistema proposto.
+
+A seguinte tabela apresenta o intervalo de valores que os sensores são capaz de medir:
+
+> tabela 1
+
+A seguir, uma tabela que resume a classificação da balneabilidade das praias de acordo com a RESOLUÇÃO CONAMA nº 274, de 29 de novembro de 2000 [3]:
+
+> tabela 2
+
+De uma praia serão armazenados a localização, extensão, quantidade de bóias e quais são os pontos de referência. Da localização serão armazenados o país, estado e cidade. Das bóias serão armazenados a referência do ponto de coleta, frequência de captação, latitude e longitude. Das coletas serão armazenados o número, data, hora, parâmetro, valor e grandeza. De um sensor serão armazenados o número de série, fabricante, ano de fabricação, data de aquisição e data da próxima manutenção. De uma pessoa serão armazenados a localização de origem, nome, email e telefone de contato. 
+
+Um ponto de referência de uma praia pode ter mais de uma bóia e a frequência de coleta pode variar entre pontos de referência.
+
+Consultas dos dados poderão ser feitas através de dispositivos móveis com conexão à internet. Uma pessoa pode consultar as condições de uma praia informando cidade, estado, país ou ponto de referência, e, acessar rankings e históricos. Os dados também poderão ser requeridos para pesquisas.
+
+Por fim, os dispositivos eletrônicos presentes no sistema serão alimentados com energia proveniente de painéis solares instalados nas bóias.
+
+[1] Texto base:
+https://gauchazh.clicrbs.com.br/comportamento/verao/noticia/2018/02/saiba-como-e-feito-e-para-que-serve-o-teste-de-balneabilidade-nas-praias-de-santa-catarina-cjda62ytx03ve01phyc3jd28d.html
+[2] Managua = Monitora + Água
+[3] Resolução do CONAMA (Modificada no trabalho - retirou-se o parâmetro  enterococos) 
+http://www2.mma.gov.br/port/conama/legiabre.cfm?codlegi=272
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
