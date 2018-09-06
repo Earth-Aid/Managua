@@ -79,7 +79,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     
-> O Managua será capaz de, inicialmente, gerar os seguintes relatórios:
+O Managua será capaz de, inicialmente, gerar os seguintes relatórios:
 
 * Relatório que informa a balneabilidade de cada praia incluindo as seguintes informações: nome da praia e classificação;
 * Relatório que informa o ranking das melhores e piores praias incluindo as seguintes informações: posição, nome, localização e tempo total em condições próprias para recreação;
