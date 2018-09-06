@@ -16,7 +16,7 @@ Visando tornar a qualidade do processo mais eficiente, propõe-se um sistema aut
 Espera-se que a melhoria do processo aumente a confiabilidade e seja um fator decisório das pessoas em relação ao local desejado para banhar-se e ao índice de radiação solar, que as prefeituras vejam como um instrumento atrativo de potenciais turistas, que cientistas e pesquisadores tenham dados confiáveis e que seja uma ferramenta para escolhas mais inteligentes e saudáveis.
 
 
-### 3.MINI-MUNDO Novo<br>
+### 3. MINI-MUNDO<br>
 
 A empresa Earth Aid propõe um sistema chamado Managua [2] para automatizar a coleta de informações sobre a qualidade da água de praias utilizando um sistema formado de sensores e microcomputadores. 
 
@@ -28,11 +28,32 @@ Observamos que, conhecer o índice de radiação solar é um fator importante qu
 
 A seguinte tabela apresenta o intervalo de valores que os sensores são capaz de medir:
 
-> tabela 1
+Parâmetro | Sensor | Intervalo | Grandeza
+------------ | ------------- |------------ | ------------- 
+Salinidade | | 0 até 10 | ppt 
+Temperatura da água | | -20 até +125 | °C
+Oxigênio dissolvido || 0 até 40 | mg/L 
+Turbidez || 0.001 até 4000 | NTU
+Condutividade elétrica || 10 até 19,990 | μS
+Ph || 0.1 até 14 | -
+Escherichia coli | | 80 até 25000 | UFC/100mL
+Coliformes fecais | | 80 até 25000 | UFC/100mL
+Temperatura do ar | Termômetro | -40 até +123,8 | °C
+Pressão atmosférica | Barômetro | 10 até 1300 | mbar
+Umidade relativa do ar | Higrômetro | 0% até 100% | RH
+Velocidade do vento | Anemômetro | 0,5 até 89 | m/s
+Direção do vento | Anemômetro | 0 até 360 | °
+Precipitação pluviométrica | Pluviômetro | 0 até 100 | mm/hr
+Radiação solar | Piranômetro | 285 x 10⁻⁹ até 3000 x 10⁻⁹ | m
 
 A seguir, uma tabela que resume a classificação da balneabilidade das praias de acordo com a RESOLUÇÃO CONAMA nº 274, de 29 de novembro de 2000 [3]:
 
-> tabela 2
+Classificação | Condição
+------------ | -------------
+Excelente | Quando em 80% ou mais de um conjunto de amostras obtidas em cada uma das cinco semanas anteriores, colhidas no mesmo local, houver, no máximo, 250 coliformes fecais ou 200 Escherichia coli por l00 mililitros
+Muito Boa | Quando em 80% ou mais de um conjunto de amostras obtidas em cada uma das cinco semanas anteriores, colhidas no mesmo local, houver, no máximo, 500 coliformes fecais ou 400 Escherichia coli por 100 mililitros
+Satisfatória | Quando em 80% ou mais de um conjunto de amostras obtidas em cada uma das cinco semanas anteriores, colhidas no mesmo local, houver, no máximo 1.000 coliformes fecais ou 800 Escherichia coli por 100 mililitros
+Imprópria | a) não atendimento aos critérios estabelecidos para as águas próprias; b) valor obtido na última amostragem for superior a 2500 coliformes fecais ou 2000 Escherichia coli por 100 mililitros; c) incidência elevada ou anormal, na Região, de enfermidades transmissíveis por via hídrica, indicada pelas autoridades sanitárias; d) presença de resíduos ou despejos, sólidos ou líquidos, inclusive esgotos sanitários, óleos, graxas e outras substâncias, capazes de oferecer riscos à saúde ou tornar desagradável a recreação; e) pH < 6,0 ou pH > 9,0 (águas doces), à exceção das condições naturais; f) floração de algas ou outros organismos, até que se comprove que não oferecem riscos à saúde humana; g) outros fatores que contra-indiquem, temporária ou permanentemente, o exercício da recreação de contato primário.
 
 De uma praia serão armazenados a localização, extensão, quantidade de bóias e quais são os pontos de referência. Da localização serão armazenados o país, estado e cidade. Das bóias serão armazenados a referência do ponto de coleta, frequência de captação, latitude e longitude. Das coletas serão armazenados o número, data, hora, parâmetro, valor e grandeza. De um sensor serão armazenados o número de série, fabricante, ano de fabricação, data de aquisição e data da próxima manutenção. De uma pessoa serão armazenados a localização de origem, nome, email e telefone de contato. 
 
