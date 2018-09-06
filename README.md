@@ -7,12 +7,13 @@ Trabalho desenvolvido durante a disciplina de BD1 no semestre 2018/2 com o Profe
 
 Anne Caroline Silva: carolinesilva4@hotmail.com<br>
 
-### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
-<br>e motivação da escolha realizada. <br>
+### 2. INTRODUÇÃO E MOTIVAÇAO<br>
 
-> A empresa "Devcom Projetos" visa colaborar com desenvolvimento de projetos para uma sociedade melhor. Sabendo-se dos desafios para gerenciar projetos dentro de uma empresa e visando unir as informações relativas a funcionários, departamentos e projetos em um mesmo local, ficamos motivados com o desenvolvimento deste sistema. O Sistema "Devcom" tem como objetivo gerenciar todas as informações ao desenvolvimento das atividades de projetos em diversas localidades do país. Para realizar suas operações adequadamente e empresa necessita que sistema que armazene informações relativas aos Projetos, Departamentos e Empregados, além de também armazenar dados sobre  Dependentes e Históricos de Salário dos empregados. O sistema deverá gerar um conjunto de relatórios que por sua vez atenderá os anseios da empresa em questão.
- 
+Cidades litorâneas se esforçam em medir a balneabilidade dos locais para banho e divulgá-las com melhor precisão e atualizar com maior frequência para seu público, seja ele local ou turista, especialmente na alta temporada. Atualmente esse processo é realizado manualmente e pouco eficaz sendo que o status, seja ele positivo ou negativo, de uma praia estar boa ou não para banho, muitas vezes é divulgado com atraso significativo.
+
+Visando tornar a qualidade do processo mais eficiente, propõe-se um sistema automatizado que utiliza um conjunto de sensores para coletar os dados referentes à salinidade, temperatura, oxigênio dissolvido, condutividade elétrica, ph, Escherichia coli e coliformes fecais e disponibilizar essas informações para o público. O sistema deverá gerar um conjunto de relatórios que por sua vez atenderá tanto o público geral quanto cientistas e pesquisadores.
+
+Espera-se que a melhoria do processo aumente a confiabilidade e seja um fator decisório das pessoas em relação ao local desejado para banhar-se, que as prefeituras vejam como um instrumento atrativo de potenciais turistas e que cientistas e pesquisadores tenham dados confiáveis.
 
 ### 3.MINI-MUNDO Novo<br>
 
