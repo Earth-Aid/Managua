@@ -3,7 +3,7 @@ Trabalho desenvolvido durante a disciplina de BD1 no semestre 2018/2 com o Profe
 
 # Sumário
 
-### 1. COMPONENTES<br>
+### 1. COMPONENTE<br>
 
 Anne Caroline Silva: carolinesilva4@hotmail.com<br>
 
@@ -69,23 +69,23 @@ https://gauchazh.clicrbs.com.br/comportamento/verao/noticia/2018/02/saiba-como-e
 [3] Resolução do CONAMA (Modificada no trabalho - retirou-se o parâmetro  enterococos) 
 http://www2.mma.gov.br/port/conama/legiabre.cfm?codlegi=272
 
-### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
+### 4. RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
 Sugestão: https://balsamiq.com/products/mockups/<br>
 
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
 ![Arquivo PDF do Protótipo Balsamiq feito para Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/EmpresaDevcom.pdf?raw=true "Empresa Devcom")
+
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
-    b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
-> A Empresa DevCom precisa inicialmente dos seguintes relatórios:
-* Relatório que informe quais são os gerentes de cada departamento incluindo as seguintes informações: número do departamento,  nome do departamento, e nome do gerente.
-* Relatório de empregados por projeto incluindo as seguintes informações: número do projeto, nome do projeto, rg do empregado, nome do empregado e quantidade de horas de trabalho do empregado alocadas ao projeto.
-* Relatório de empregados com dependentes incluindo as seguintes informações: rg do empregado, nome do empregado, nome do dependente, tipo de relação, data de nascimento do dependente e sexo do dependente.
-* Relatório com a quantidade de empregados por cada departamento incluindo as seguintes informações: nome do departamento, supervisor e quantidade de empregados alocados no departamento.
-* Relatório de supervisores e supervisionados incluindo as seguintes informações: nome do supervisor e nome do supervisionado.
+> O Managua será capaz de, inicialmente, gerar os seguintes relatórios:
+
+* Relatório que informa a balneabilidade de cada praia incluindo as seguintes informações: nome da praia e classificação;
+* Relatório que informa o ranking das melhores e piores praias incluindo as seguintes informações: posição, nome, localização e tempo total em condições próprias para recreação;
+* Relatório que informa a média das condições meteorológicas locais incluindo as seguintes informações: nome da praia, localização, média da temperatura da água, temperatura do ar, pressão atmosférica, umidade relativa do ar, velocidade do vento, precipitação pluviométrica e índice de radiação solar;
+* Relatório que informa um resumo de balneabilidade incluindo as seguintes informações: quantidade de praias nessa categoria, categoria, lista com os nomes e localização das praias;
+* Relatório que informa os períodos em que a incidência da radiação é crítica para a saúde humana incluindo as seguintes informações: nome da praia e radiação solar medida.
  
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
