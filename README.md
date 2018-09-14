@@ -55,7 +55,7 @@ Muito Boa | Quando em 80% ou mais de um conjunto de amostras obtidas em cada uma
 Satisfatória | Quando em 80% ou mais de um conjunto de amostras obtidas em cada uma das cinco semanas anteriores, colhidas no mesmo local, houver, no máximo 1.000 coliformes fecais ou 800 Escherichia coli por 100 mililitros
 Imprópria | a) não atendimento aos critérios estabelecidos para as águas próprias; b) valor obtido na última amostragem for superior a 2500 coliformes fecais ou 2000 Escherichia coli por 100 mililitros; c) incidência elevada ou anormal, na Região, de enfermidades transmissíveis por via hídrica, indicada pelas autoridades sanitárias; d) presença de resíduos ou despejos, sólidos ou líquidos, inclusive esgotos sanitários, óleos, graxas e outras substâncias, capazes de oferecer riscos à saúde ou tornar desagradável a recreação; e) pH < 6,0 ou pH > 9,0 (águas doces), à exceção das condições naturais; f) floração de algas ou outros organismos, até que se comprove que não oferecem riscos à saúde humana; g) outros fatores que contra-indiquem, temporária ou permanentemente, o exercício da recreação de contato primário.
 
-De uma praia serão armazenados a localização, nome, extensão, quantidade de bóias e quais são os pontos de referência. Da localização serão armazenados o país, estado e cidade. Das bóias serão armazenados a referência do ponto de coleta, latitude e longitude. Das coletas serão armazenados o número, data, hora, parâmetro, frequência de captação e valor. De um sensor serão armazenados o número de série, fabricante, ano de fabricação, data de aquisição e data da próxima manutenção. De uma pessoa serão armazenados a localização de origem, nome, email e telefone de contato. 
+De uma praia serão armazenados a localização, nome, extensão e quantidade de bóias. Da localização serão armazenados o país, estado e cidade. Das bóias serão armazenados a referência do ponto de coleta, latitude e longitude. Das coletas serão armazenados o número, data, hora, parâmetro, frequência de captação e valor. De um sensor serão armazenados o número de série, fabricante, ano de fabricação, data de aquisição e data da próxima manutenção. De uma pessoa serão armazenados a localização de origem, nome, email e telefone de contato. 
 
 Um ponto de referência de uma praia pode ter mais de uma bóia e a frequência de coleta pode variar entre pontos de referência.
 
@@ -94,9 +94,8 @@ O Managua será capaz de, inicialmente, gerar os seguintes relatórios:
     e deve ser criada antes do modelo conceitual
     c) Após criada esta tabela não deve ser modificada, pois será comparada com os resultados finais na conclusão do trabalho
     
-![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/TabelaEmpresaDevCom_sample.xlsx?raw=true "Tabela - Empresa Devcom")
-    
->## Marco de Entrega 01 em: (06/09/2018)<br>
+![Tabela de dados](https://github.com/Earth-Aid/Managua/blob/master/4.2%20Tabela%20de%20Dados%20do%20Sistema.xlsx)
+
 
 ### 5.MODELO CONCEITUAL<br>
     A) NOTACAO ENTIDADE RELACIONAMENTO 
