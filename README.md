@@ -78,7 +78,9 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ![Arquivo PDF do Protótipo Balsamiq feito para Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/EmpresaDevcom.pdf?raw=true "Empresa Devcom")
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    
+
+As principais perguntas que o sistema propõe a responder são: “a praia que eu escolhi me banhar está em condições de oferecer um momento de lazer sem comprometer minha saúde”? E “o nível de radiação está além do recomendado”?
+
 O Managua será capaz de, inicialmente, gerar os seguintes relatórios:
 
 * Relatório que informa a balneabilidade de cada praia incluindo as seguintes informações: nome da praia e classificação;
@@ -89,12 +91,8 @@ O Managua será capaz de, inicialmente, gerar os seguintes relatórios:
  
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
-    a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas/registros de dados.
-    b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
-    e deve ser criada antes do modelo conceitual
-    c) Após criada esta tabela não deve ser modificada, pois será comparada com os resultados finais na conclusão do trabalho
     
-![Tabela de dados](https://github.com/Earth-Aid/Managua/blob/master/4.2%20Tabela%20de%20Dados%20do%20Sistema.xlsx)
+[Tabela de dados](https://github.com/Earth-Aid/Managua/blob/master/4.2%20Tabela%20de%20Dados%20do%20Sistema.xlsx)
 
 
 ### 5.MODELO CONCEITUAL<br>
@@ -203,44 +201,3 @@ O Managua será capaz de, inicialmente, gerar os seguintes relatórios:
         
 ### 13   DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 >## Marco de Entrega Final em: (08/11/2018)<br>
-        
-### 14  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
-<comentario no git>
-    
-##### About Formatting
-    https://help.github.com/articles/about-writing-and-formatting-on-github/
-    
-##### Basic Formatting in Git
-    
-    https://help.github.com/articles/basic-writing-and-formatting-syntax/#referencing-issues-and-pull-requests
-    
-    
-##### Working with advanced formatting
-    https://help.github.com/articles/working-with-advanced-formatting/
-#### Mastering Markdown
-    https://guides.github.com/features/mastering-markdown/
-
-
-
-    
-
-    
-### OBSERVAÇÕES IMPORTANTES
-
-#### Todos os arquivos que fazem parte do projeto (Imagens, pdfs, arquivos fonte, etc..), devem estar presentes no GIT. Os arquivos do projeto vigente não devem ser armazenados em quaisquer outras plataformas.
-1. Caso existam arquivos com conteúdos sigilosos, comunicar o professor que definirá em conjunto com o grupo a melhor forma de armazenamento do arquivo.
-
-#### Todos os grupos deverão fazer Fork deste repositório e dar permissões administrativas ao usuário do git "profmoisesomena", para acompanhamento do trabalho.
-
-#### Os usuários criados no GIT devem possuir o nome de identificação do aluno (não serão aceitos nomes como Eu123, meuprojeto, pro456, etc). Em caso de dúvida comunicar o professor.
-
-
-Link para BrModelo:<br>
-http://www.sis4.com/brModelo/download.html
-<br>
-
-
-Link para curso de GIT<br>
-![https://www.youtube.com/curso_git](https://www.youtube.com/playlist?list=PLo7sFyCeiGUdIyEmHdfbuD2eR4XPDqnN2?raw=true "Title")
-
-
