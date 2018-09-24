@@ -70,12 +70,9 @@ https://gauchazh.clicrbs.com.br/comportamento/verao/noticia/2018/02/saiba-como-e
 http://www2.mma.gov.br/port/conama/legiabre.cfm?codlegi=272
 
 ### 4. RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
-Sugestão: https://balsamiq.com/products/mockups/<br>
-
-![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
-![Arquivo PDF do Protótipo Balsamiq feito para Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/EmpresaDevcom.pdf?raw=true "Empresa Devcom")
+[Alt text](https://github.com/Earth-Aid/Managua/blob/master/managuaMockup.pdf)
+[Arquivo PDF do Protótipo Balsamiq feito para a Managua](https://github.com/Earth-Aid/Managua/blob/master/New%20Wireframe%201.png)
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
 
