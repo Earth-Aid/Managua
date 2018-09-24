@@ -71,9 +71,9 @@ http://www2.mma.gov.br/port/conama/legiabre.cfm?codlegi=272
 
 ### 4. RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
-![Alt text](https://github.com/Earth-Aid/Managua/blob/master/managuaMockup.pdf)
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/New%20Wireframe%201.png)
 
-[Arquivo PDF do Protótipo Balsamiq feito para a Managua](https://github.com/Earth-Aid/Managua/blob/master/New%20Wireframe%201.png)
+[Arquivo PDF do Protótipo Balsamiq feito para a Managua](https://github.com/Earth-Aid/Managua/blob/master/managuaMockup.pdf)
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
 
