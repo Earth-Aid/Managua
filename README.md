@@ -69,7 +69,7 @@ https://gauchazh.clicrbs.com.br/comportamento/verao/noticia/2018/02/saiba-como-e
 [3] Resolução do CONAMA (Modificada no trabalho - retirou-se o parâmetro  enterococos) 
 http://www2.mma.gov.br/port/conama/legiabre.cfm?codlegi=272
 
-### 4. RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
+### 4. RASCUNHOS BÁSICOS DA INTERFACE<br>
 
 ![Alt text](https://github.com/Earth-Aid/Managua/blob/master/New%20Wireframe%201.png)
 
@@ -99,8 +99,9 @@ O Managua será capaz de, inicialmente, gerar os seguintes relatórios:
     
     
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+
+* Piscicultura Inteligente: André Altivo, Lucca Machado, Gabriela Piffer e Marcelo Mendes;
+* Controle de Frequência de Aulas: Brunna Dalzini de Oliveira, Daniela Salomão Santa Clara, Leonir dos Reis Alves e Mayannara Trindade Carvalho.
 
 #### 5.2 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
@@ -110,14 +111,43 @@ O Managua será capaz de, inicialmente, gerar os seguintes relatórios:
     pode possuir para cada departamento mais de uma localização... 
     b) justifique!
 
->## Marco de Entrega 02 em: (17/09/2018)<br>
-#### 5.3 DESCRIÇÃO DOS DADOS 
-    [objeto]: [descrição do objeto]
-    
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+#### 5.3 DESCRIÇÃO DOS DADOS
 
+* Pessoa: Tabela que armazena as informações relativas a pessoa que se cadastra no aplicativo;
+* Nome: Campo que armazena o nome completo para cada pessoa que se cadastra no aplicativo;
+* Email: Campo que armazena o endereço de correspondência eletrônico para cada pessoa que se cadastra no aplicativo;
+* Contato: Campo que armazena o número de telefone celular para cada pessoa que se cadastra no aplicativo;
+* Localizacao: Tabela que armazena as informações relativas a localização das praias e pessoas cadastradas;
+* Pais: Tabela que armazena as informações relativas ao nome do país;
+* Nome: Campo que armazena o nome do país a ser cadastrado no sistema;
+* Numero: Campo que armazena um número que caracteriza cada país; 
+* Estado:  Tabela que armazena as informações relativas ao nome do Estado;
+* Nome: Campo que armazena o nome do estado a ser cadastrado no sistema;
+* Numero: Campo que armazena um número que caracteriza cada estado;
+* Cidade: Tabela que armazena as informações relativas ao nome da cidade;
+* Nome: Campo que armazena o nome da cidade a ser cadastrada no sistema;
+* Numero: Campo que armazena um número que caracteriza cada cidade; 
+* Praia: Tabela que armazena as informações relativas às praias cadastradas no sistema;
+* Nome: Campo que armazena o nome da praia;
+* Quant_boia: Campo que armazena o valor da quantidade de bóias distribuídas em cada praia;
+* Extensao: Campo que armazena o valor  da extensão de uma praia;
+* Boia: Tabela que armazena as informações relativas à uma bóia cadastrada no sistema;
+* Ref_ponto_col: Campo que armazena o ponto de referência de uma bóia;
+* Latitude: Campo que armazena o valor da latitude de uma bóia;
+* Longitude: Campo que armazena o valor da longitude de uma bóia;
+* Coleta: Tabela que armazena as informações relativas às coletas que serão cadastradas no sistema;
+* Freq_capt: Campo que armazena o valor da frequência de captação de dados de um sensor;
+* Parametro: Campo que armazena qual dos parâmetros será realizado a coleta;
+* Hora: Campo que armazena o valor da hora em que a coleta é realizada;
+* Data: Campo que armazena o valor da hora em que a coleta é realizada;
+* Valor: Campo que armazena o valor captado pela coleta;
+* Numero: Campo que armazena um número identificador único para cada coleta;
+* Sensor: Tabela que armazena as informações relativas ao sensor que serão cadastradas no sistema;
+* Data_aquisicao: Campo que armazena o valor da data de aquisição do respectivo sensor;
+* Fabricante: Campo que armazena as informações relativas ao fabricante do sensor;
+* Num_serie: Campo que armazena o número de série do sensor;
+* Ano_fabricacao: Campo que armazena o valor do ano de fabricação do sensor;
+* Data_prox_manut: Campo que armazena o data da próxima manutenção do sensor.
 
 ### 6	MODELO LÓGICO<br>
         a) inclusão do modelo lógico do banco de dados
