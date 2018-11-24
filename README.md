@@ -145,9 +145,9 @@ O Managua será capaz de, inicialmente, gerar os seguintes relatórios:
         
 
 ### 7	MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas DDL 
-        (criação de tabelas, alterações, etc..)          
-        
+
+[Modelo físico](https://github.com/Earth-Aid/Managua/blob/master/modeloFisico.sql)
+
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
         a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico 
