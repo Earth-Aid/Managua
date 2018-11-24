@@ -146,7 +146,7 @@ O Managua será capaz de, inicialmente, gerar os seguintes relatórios:
 
 ### 7	MODELO FÍSICO<br>
 
-[Modelo físico](https://github.com/Earth-Aid/Managua/blob/master/modeloFisico.sql)
+[7 Modelo físico](https://github.com/Earth-Aid/Managua/blob/master/modeloFisico.sql)
 
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
