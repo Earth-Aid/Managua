@@ -5,7 +5,7 @@ Trabalho desenvolvido durante a disciplina de BD1 no semestre 2018/2 com o Profe
 
 ### 1. COMPONENTE<br>
 
-Anne Caroline Silva: carolinesilva4@hotmail.com<br>
+Anne Caroline Silva: carolinesilva4@hotmail.com
 
 ### 2. INTRODUÇÃO E MOTIVAÇAO<br>
 
@@ -114,21 +114,21 @@ O Managua será capaz de, inicialmente, gerar os seguintes relatórios:
 #### 5.3 DESCRIÇÃO DOS DADOS
 
 * Praia: Tabela que armazena as informações relativas às praias cadastradas no sistema;
- - Nome: Campo que armazena o nome da praia;
+ 	- Nome: Campo que armazena o nome da praia;
 * Cidade: Tabela que armazena as informações relativas ao nome da cidade;
- - Nome: Campo que armazena o nome da cidade a ser cadastrada no sistema;
+	- Nome: Campo que armazena o nome da cidade a ser cadastrada no sistema;
 * Estado:  Tabela que armazena as informações relativas ao nome do Estado;
- - Nome: Campo que armazena o nome do estado a ser cadastrado no sistema;
+	- Nome: Campo que armazena o nome do estado a ser cadastrado no sistema;
 * Pais: Tabela que armazena as informações relativas ao nome do país;
- - Nome: Campo que armazena o nome do país a ser cadastrado no sistema;
+	- Nome: Campo que armazena o nome do país a ser cadastrado no sistema;
 * Boia: Tabela que armazena as informações relativas à uma bóia cadastrada no sistema;
- - Ref_ponto_col: Campo que armazena o ponto de referência de uma bóia;
- - Latitude: Campo que armazena o valor da latitude de uma bóia;
- - Longitude: Campo que armazena o valor da longitude de uma bóia;
+ 	- Ref_ponto_col: Campo que armazena o ponto de referência de uma bóia;
+ 	- Latitude: Campo que armazena o valor da latitude de uma bóia;
+ 	- Longitude: Campo que armazena o valor da longitude de uma bóia;
 * Sensor: Tabela que armazena as informações relativas ao sensor que serão cadastradas no sistema;
- - Num_serie: Campo que armazena o número de série do sensor;
- - Data_aquisicao: Campo que armazena o valor da data de aquisição do respectivo sensor;
- - Data_prox_manut: Campo que armazena o data da próxima manutenção do sensor.
+ 	- Num_serie: Campo que armazena o número de série do sensor;
+ 	- Data_aquisicao: Campo que armazena o valor da data de aquisição do respectivo sensor;
+ 	- Data_prox_manut: Campo que armazena o data da próxima manutenção do sensor.
 * Tipo_Sensor: Tabela que armazena informações relativas a qual tipo de sensor serão cadastrados
 	- Nome: campo que armazena o nome do sensor
 * Fabricante: Tabela que armazena as informações relativas ao fabricante do sensor;
@@ -136,7 +136,7 @@ O Managua será capaz de, inicialmente, gerar os seguintes relatórios:
 * Historico: Tabela que armazena informações relativas ao histórico de informações captadas pelos sensores
 	- Valor: Campo que armazena o valor captado pela coleta;
 	- Data: Campo que armazena o valor da hora em que a coleta é realizada;
- - Hora: Campo que armazena o valor da hora em que a coleta é realizada.
+ 	- Hora: Campo que armazena o valor da hora em que a coleta é realizada.
 
 
 ### 6	MODELO LÓGICO<br>
