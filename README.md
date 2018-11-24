@@ -113,41 +113,31 @@ O Managua será capaz de, inicialmente, gerar os seguintes relatórios:
 
 #### 5.3 DESCRIÇÃO DOS DADOS
 
-* Pessoa: Tabela que armazena as informações relativas a pessoa que se cadastra no aplicativo;
-* Nome: Campo que armazena o nome completo para cada pessoa que se cadastra no aplicativo;
-* Email: Campo que armazena o endereço de correspondência eletrônico para cada pessoa que se cadastra no aplicativo;
-* Contato: Campo que armazena o número de telefone celular para cada pessoa que se cadastra no aplicativo;
-* Localizacao: Tabela que armazena as informações relativas a localização das praias e pessoas cadastradas;
-* Pais: Tabela que armazena as informações relativas ao nome do país;
-* Nome: Campo que armazena o nome do país a ser cadastrado no sistema;
-* Numero: Campo que armazena um número que caracteriza cada país; 
-* Estado:  Tabela que armazena as informações relativas ao nome do Estado;
-* Nome: Campo que armazena o nome do estado a ser cadastrado no sistema;
-* Numero: Campo que armazena um número que caracteriza cada estado;
-* Cidade: Tabela que armazena as informações relativas ao nome da cidade;
-* Nome: Campo que armazena o nome da cidade a ser cadastrada no sistema;
-* Numero: Campo que armazena um número que caracteriza cada cidade; 
 * Praia: Tabela que armazena as informações relativas às praias cadastradas no sistema;
-* Nome: Campo que armazena o nome da praia;
-* Quant_boia: Campo que armazena o valor da quantidade de bóias distribuídas em cada praia;
-* Extensao: Campo que armazena o valor  da extensão de uma praia;
+ - Nome: Campo que armazena o nome da praia;
+* Cidade: Tabela que armazena as informações relativas ao nome da cidade;
+ - Nome: Campo que armazena o nome da cidade a ser cadastrada no sistema;
+* Estado:  Tabela que armazena as informações relativas ao nome do Estado;
+ - Nome: Campo que armazena o nome do estado a ser cadastrado no sistema;
+* Pais: Tabela que armazena as informações relativas ao nome do país;
+ - Nome: Campo que armazena o nome do país a ser cadastrado no sistema;
 * Boia: Tabela que armazena as informações relativas à uma bóia cadastrada no sistema;
-* Ref_ponto_col: Campo que armazena o ponto de referência de uma bóia;
-* Latitude: Campo que armazena o valor da latitude de uma bóia;
-* Longitude: Campo que armazena o valor da longitude de uma bóia;
-* Coleta: Tabela que armazena as informações relativas às coletas que serão cadastradas no sistema;
-* Freq_capt: Campo que armazena o valor da frequência de captação de dados de um sensor;
-* Parametro: Campo que armazena qual dos parâmetros será realizado a coleta;
-* Hora: Campo que armazena o valor da hora em que a coleta é realizada;
-* Data: Campo que armazena o valor da hora em que a coleta é realizada;
-* Valor: Campo que armazena o valor captado pela coleta;
-* Numero: Campo que armazena um número identificador único para cada coleta;
+ - Ref_ponto_col: Campo que armazena o ponto de referência de uma bóia;
+ - Latitude: Campo que armazena o valor da latitude de uma bóia;
+ - Longitude: Campo que armazena o valor da longitude de uma bóia;
 * Sensor: Tabela que armazena as informações relativas ao sensor que serão cadastradas no sistema;
-* Data_aquisicao: Campo que armazena o valor da data de aquisição do respectivo sensor;
-* Fabricante: Campo que armazena as informações relativas ao fabricante do sensor;
-* Num_serie: Campo que armazena o número de série do sensor;
-* Ano_fabricacao: Campo que armazena o valor do ano de fabricação do sensor;
-* Data_prox_manut: Campo que armazena o data da próxima manutenção do sensor.
+ - Num_serie: Campo que armazena o número de série do sensor;
+ - Data_aquisicao: Campo que armazena o valor da data de aquisição do respectivo sensor;
+ - Data_prox_manut: Campo que armazena o data da próxima manutenção do sensor.
+* Tipo_Sensor: Tabela que armazena informações relativas a qual tipo de sensor serão cadastrados
+	- Nome: campo que armazena o nome do sensor
+* Fabricante: Tabela que armazena as informações relativas ao fabricante do sensor;
+	- Nome: campo que armazena o nome do fabricante
+* Historico: Tabela que armazena informações relativas ao histórico de informações captadas pelos sensores
+	- Valor: Campo que armazena o valor captado pela coleta;
+	- Data: Campo que armazena o valor da hora em que a coleta é realizada;
+ - Hora: Campo que armazena o valor da hora em que a coleta é realizada.
+
 
 ### 6	MODELO LÓGICO<br>
 
@@ -175,7 +165,6 @@ O Managua será capaz de, inicialmente, gerar os seguintes relatórios:
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
->## Marco de Entrega 03 em: (27/09/18) <br>
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
@@ -190,8 +179,6 @@ O Managua será capaz de, inicialmente, gerar os seguintes relatórios:
     b) Criar uma consulta para cada tipo de função data apresentada.
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
-
->## Marco de Entrega 04 em: (18/10/2017)<br>
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
@@ -217,4 +204,7 @@ O Managua será capaz de, inicialmente, gerar os seguintes relatórios:
         d) realizar qualquer procedimento executado pelo grupo que desenvolveu o trabalho
         
 ### 13   DIFICULDADES ENCONTRADAS PELO GRUPO<br>
->## Marco de Entrega Final em: (08/11/2018)<br>
+* Eu não gosto de fazer Mockup. Demorei bastante pra começar a fazer até encontrar inspiração suficiente pro design;
+* Dúvidas com o Modelo Conceitual. Eu não sabia muito bem como implementar no MC a parte do histórico de coletas e quais campos ele teria;
+* Faltou confiar em mim mesma.
+
