@@ -95,7 +95,7 @@ O Managua será capaz de, inicialmente, gerar os seguintes relatórios:
 
 ### 5.MODELO CONCEITUAL<br>
         
-![Alt text](https://github.com/Earth-Aid/Managua/blob/master/managuaMC.png "Modelo Conceitual")
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/managuaMC4.png "Modelo Conceitual")
     
     
 #### 5.1 Validação do Modelo Conceitual
