@@ -1,0 +1,116 @@
+-- Inserte nas tabelas do BD
+-- 24/11/2018
+
+INSERT INTO PAIS (id, nome) VALUES
+	(1, 'Brasil'),
+	(2, 'Argentina'),
+	(3, 'Inglaterra'),
+	(4, 'Estados Unidos'),
+	(5, 'Portugal')
+	
+INSERT INTO ESTADO (id, nome, fk_pais_id) VALUES
+	(1, 'Espírito Santo', 1),
+	(2, 'Rio de Janeiro', 1),
+	(3, 'Rio Grande do Norte', 1),
+	(4, 'Bahia', 1),
+	(5, 'California', 4),
+	(6, 'Florida', 4)
+	
+INSERT INTO CIDADE (id, nome, fk_estado_id) VALUES
+	(1, 'Vitória', 1),
+	(2, 'Vila Velha', 1),
+	(3, 'Serra', 1),
+	(4, 'Natal', 3),
+	(5, 'Salvador', 4),
+	(6, 'Guarapari', 1),
+	(7, 'Los Angeles', 5),
+	(8, 'São Francisco', 5),
+	(9, 'Miami', 6),
+	(10, 'Ipanema', 2)
+	
+INSERT INTO PRAIA (id, nome, fk_cidade_id) VALUES
+	(1, 'Camburi', 1),
+	(2, 'Curva da Jurema', 1),
+	(3, 'Praia da Sereia', 2),
+	(4, 'Praia da Costa', 2),
+	(5, 'Itapuã', 2),
+	(6, 'Itaparica', 2),
+	(7, 'Ponta Negra', 4),
+	(8, 'Jacaraípe', 3),
+	(9, 'Manguinhos', 3),
+	(10, 'Ipanema', 10),
+	(11, 'Miami Beach', 9)
+	(12, 'Manhattan Beach', 7),
+	(13, 'Long Beach', 7),
+	(14, 'Porto da Barra', 5)
+	
+INSERT INTO TIPO_SENSOR (id, nome) VALUES
+	(1, 'Medidor de Condutividade/Temperatura'),
+	(2, 'Piranômetro'),
+	(3, 'Sonda oxigênio dissolvido'),
+	(4, 'Sonda consutividade'),
+	(5, 'Pluviômetro'),
+	(6, 'Anemômetro'),
+	(7, 'Termômetro'),
+	(8, 'Barômetro'),
+	(9, 'Higrômetro'),
+	(10, 'Ph'),
+	(11, 'Medidor de E.Coli/Coliformes fecais')
+	
+	
+INSERT INTO FABRICANTE (id, nome) VALUES
+	(1, 'Extech'),
+	(2, 'Hukseflux'),
+	(3, 'HACH'),
+	(4, 'Siemens'),
+	(5, 'Boshung'),
+	(6, 'Haensch'),
+	(7, 'Reichert')
+	
+INSERT INTO SENSOR (id, num_serie, data_aquisicao, data_prox_manutencao, fk_fabricante_id) VALUES
+	(1, 'AAAAA11111', '01-01-2018', '01-01-2022', 1),
+	(2, 'BBBBB22222', '15-01-2018', '30-01-2020', 3),
+	(3, 'CCCCC33333', '05-02-1018', '25-04-2025', 4),
+	(4, 'DDDDD44444', '01-01-2018', '31-12-2020', 4),
+	(5, 'EEEEE55555', '06-06-1017', '06-06-2021', 7)
+	
+INSERT INTO SENSOR_TIPO (fk_sensor_id, fk_tipo_sensor_id) VALUES
+	(1, 1),
+	(2, 3),
+	(3, 5),
+	(4, 9),
+	(5, 10)
+
+-- INSERT INTO BOIA (id, latitude, longitude, ponto_ref_col, fk_praia_id) VALUES
+
+-- INSERT INTO BOIA_SENSOR_RELACAO_1 (id_boia_sensor, fk_boia_sensor, fk_sensor_id) VALUES
+
+-- INSERT INTO HISTORICO (id_coleta, data_col, hora, valor, fk_boia_sensor_relacao_1_id_boia_sensor) VALUES
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
