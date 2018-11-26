@@ -138,20 +138,18 @@ O Managua será capaz de, inicialmente, gerar os seguintes relatórios:
 	- Data: Campo que armazena o valor da hora em que a coleta é realizada;
  	- Hora: Campo que armazena o valor da hora em que a coleta é realizada.
 
-
 ### 6	MODELO LÓGICO<br>
 
 ![Alt text](https://github.com/Earth-Aid/Managua/blob/master/managuaML1.png "Modelo Lógico")
         
-
 ### 7	MODELO FÍSICO<br>
 
 [7 Modelo físico](https://github.com/Earth-Aid/Managua/blob/master/modeloFisico.sql)
 
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico 
-        b) formato .SQL
+
+[8.1 Insert](https://github.com/Earth-Aid/Managua/blob/master/8.1%20insert)
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS
         a) Junção dos scripts anteriores em um único script 
