@@ -38,7 +38,7 @@ INSERT INTO PRAIA (id, nome, fk_cidade_id) VALUES
 	(8, 'Jacaraípe', 3),
 	(9, 'Manguinhos', 3),
 	(10, 'Ipanema', 10),
-	(11, 'Miami Beach', 9)
+	(11, 'Miami Beach', 9),
 	(12, 'Manhattan Beach', 7),
 	(13, 'Long Beach', 7),
 	(14, 'Porto da Barra', 5)
