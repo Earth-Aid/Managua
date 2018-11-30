@@ -163,6 +163,50 @@ O Managua será capaz de, inicialmente, gerar os seguintes relatórios:
 
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
+SELECT * FROM PAIS
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.1.1.PNG)
+
+SELECT * FROM ESTADO
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.1.2.PNG)
+
+SELECT * FROM CIDADE
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.1.3.PNG)
+
+SELECT * FROM PRAIA
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.1.4.PNG)
+
+SELECT * FROM BOIA
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.1.5.PNG)
+
+SELECT * FROM TIPO_SENSOR
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.1.6.PNG)
+
+SELECT * FROM SENSOR_TIPO
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.1.7.PNG)
+
+SELECT * FROM FABRICANTE
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.1.8.PNG)
+
+SELECT * FROM SENSOR
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.1.9.PNG)
+
+SELECT * FROM BOIA_SENSOR_RELACAO_1
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.1.10.PNG)
+
+SELECT * FROM HISTORICO
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.1.11.PNG)
+
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
