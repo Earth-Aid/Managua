@@ -152,11 +152,9 @@ O Managua será capaz de, inicialmente, gerar os seguintes relatórios:
 [8.1 Insert](https://github.com/Earth-Aid/Managua/blob/master/8.1%20insert)
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS
-        a) Junção dos scripts anteriores em um único script 
-        (create para tabelas e estruturas de dados + dados a serem inseridos)
-        b) Criar um novo banco de dados para testar a restauracao 
-        (em caso de falha na restauração o grupo não pontuará neste quesito)
-        c) formato .SQL
+
+[8.2 Create + Insert](https://github.com/Earth-Aid/Managua/blob/master/8.2%20Create%20%2B%20Insert)
+
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
         a) Junção dos scripts anteriores em um único script
         (Drop para exclusão de tabelas + create para tabelas e estruturas de dados + dados a serem inseridos)
