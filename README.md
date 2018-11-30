@@ -325,7 +325,7 @@ UPDATE BOIA SET ponto_ref_col = 'Entrada da Ilha do Frade' WHERE id = 3
 
 Antes:
 
-![Alt text]()
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.1.5.PNG)
 
 Depois:
 
@@ -335,7 +335,7 @@ DELETE FROM CIDADE WHERE id = 5
 
 Antes:
 
-![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.1.5.PNG)
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.1.3.PNG)
 
 Depois:
 
