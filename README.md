@@ -286,11 +286,17 @@ SELECT * FROM FABRICANTE WHERE nome LIKE ‘%ch%’
 ![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.4.5.PNG)
 
 ![Alt text]()
+
 ![Alt text]()
+
 ![Alt text]()
+
 ![Alt text]()
+
 ![Alt text]()
+
 ![Alt text]()
+
 ![Alt text]()
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
@@ -298,49 +304,61 @@ SELECT * FROM FABRICANTE WHERE nome LIKE ‘%ch%’
 UPDATE PAIS SET nome = 'Austrália' WHERE nome = 'Portugal'
 
 Antes:
+
 ![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.1.1.PNG)
 
 Depois:
+
 ![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.5.1.PNG)
 
 UPDATE PRAIA SET nome = 'Praia Secreta' WHERE id = 3
 
 Antes:
+
 ![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.1.4.PNG)
 
 Depois:
+
 ![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.5.2.PNG)
 
 UPDATE BOIA SET ponto_ref_col = 'Entrada da Ilha do Frade' WHERE id = 3
 
 Antes:
+
 ![Alt text]()
 
 Depois:
+
 ![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.5.3.PNG)
 
 DELETE FROM CIDADE WHERE id = 5
 
 Antes:
+
 ![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.1.5.PNG)
 
 Depois:
+
 ![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.5.4.PNG)
 
 DELETE FROM FABRICANTE WHERE nome = 'Reichert'
 
 Antes:
+
 ![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.1.8.PNG)
 
 Depois:
+
 ![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.5.5.PNG)
 
 DELETE FROM HISTORICO WHERE data_col <= '30-09-2018'
 
 Antes:
+
 ![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.1.11.PNG)
 
 Depois:
+
 ![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.5.6.PNG)
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
