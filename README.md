@@ -209,15 +209,139 @@ SELECT * FROM HISTORICO
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
+SELECT * FROM BOIA WHERE fk_praia_id = 2
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.2.1.PNG)
+
+SELECT data_col, hora, valor FROM HISTORICO WHERE data_col = '26-11-2018'
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.2.2.PNG)
+
+SELECT * FROM SENSOR WHERE data_prox_manutencao >  '01-01-2023'
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.2.3.PNG)
+
+SELECT nome, fk_cidade_id, id FROM PRAIA WHERE fk_cidade_id <= 5
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.2.4.PNG)
+
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
-    a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
-    b) Criar no mínimo 3 consultas com operadores aritméticos 
-    c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
+ 
+SELECT * FROM PRAIA WHERE fk_cidade_id >= 2 AND fk_cidade_id <= 6
+ 
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.3.1.PNG)
+ 
+SELECT * FROM TIPO_SENSOR WHERE id > 5 OR nome = 'Medidor de Condutividade/Temperatura'
+ 
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.3.2.PNG)
+
+SELECT num_serie, data_aquisicao FROM SENSOR WHERE num_serie <> 'EEEEE55555' 
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.3.3.PNG)
+
+SELECT latitude, longitude FROM BOIA WHERE fk_praia_id <> 9 AND id >= 5
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.3.4.PNG)
+ 
+SELECT * FROM HISTORICO WHERE id_col > 15 AND data_col > '15-09-2018'
+ 
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.3.5.PNG)
+ 
+![Alt text]()
+ 
+![Alt text]()
+ 
+![Alt text]()
+
+SELECT num_serie AS “Número de Série”, data_prox_manutencao AS “Próxima Manutenção” FROM SENSOR 
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.3.9.PNG)
+ 
+SELECT data_col AS “Data”, hora AS “Hora”, valor AS “Valor da Coleta” FROM HISTORICO WHERE id_coleta <= 15
+ 
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.3.10.PNG)
+ 
+![Alt text]()
+ 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
-    a) Criar outras 5 consultas que envolvam like ou ilike
-    b) Criar uma consulta para cada tipo de função data apresentada.
+
+SELECT * FROM PAIS WHERE nome LIKE ‘_r%’
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.4.1.PNG)
+
+SELECT * FROM CIDADE WHERE 	nome LIKE ‘_____’
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.4.2.PNG)
+
+SELECT id, ponto_ref_col FROM BOIA WHERE ponto_ref_col LIKE ‘%frente%’
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.4.3.PNG)
+
+SELECT * FROM TIPO_SENSOR WHERE nome LIKE '%metro%' OR nome ILIKE '%sonda%'
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.4.4.PNG)
+
+SELECT * FROM FABRICANTE WHERE nome LIKE ‘%ch%’
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.4.5.PNG)
+
+![Alt text]()
+![Alt text]()
+![Alt text]()
+![Alt text]()
+![Alt text]()
+![Alt text]()
+![Alt text]()
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+
+UPDATE PAIS SET nome = 'Austrália' WHERE nome = 'Portugal'
+
+Antes:
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.1.1.PNG)
+
+Depois:
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.5.1.PNG)
+
+UPDATE PRAIA SET nome = 'Praia Secreta' WHERE id = 3
+
+Antes:
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.1.4.PNG)
+
+Depois:
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.5.2.PNG)
+
+UPDATE BOIA SET ponto_ref_col = 'Entrada da Ilha do Frade' WHERE id = 3
+
+Antes:
+![Alt text]()
+
+Depois:
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.5.3.PNG)
+
+DELETE FROM CIDADE WHERE id = 5
+
+Antes:
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.1.5.PNG)
+
+Depois:
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.5.4.PNG)
+
+DELETE FROM FABRICANTE WHERE nome = 'Reichert'
+
+Antes:
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.1.8.PNG)
+
+Depois:
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.5.5.PNG)
+
+DELETE FROM HISTORICO WHERE data_col <= '30-09-2018'
+
+Antes:
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.1.11.PNG)
+
+Depois:
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.5.6.PNG)
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
