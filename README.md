@@ -388,4 +388,4 @@ Depois:
 * Eu não gosto de fazer Mockup. Demorei bastante pra começar a fazer até encontrar inspiração suficiente pro design;
 * Dúvidas com o Modelo Conceitual. Eu não sabia muito bem como implementar no MC a parte do histórico de coletas e quais campos ele teria;
 * Faltou confiar em mim mesma.
-
+* Meu trabalho não possui muitos dados numéricos ou tabelas com mais de duas colunas e devido a isso tive muitas dificuldades em pensar em consultas em envolvam operadores aritméticos, group by e funções de agrupamento.
