@@ -114,29 +114,50 @@ O Managua será capaz de, inicialmente, gerar os seguintes relatórios:
 #### 5.3 DESCRIÇÃO DOS DADOS
 
 * Praia: Tabela que armazena as informações relativas às praias cadastradas no sistema;
- 	- Nome: Campo que armazena o nome da praia;
+ 	- Id: Identificador único que caracteriza as tuplas inseridas na tabela;
+	- Nome: Campo que armazena o nome da praia;
+	- Fk_CIDADE_id: Campo que armazena as chaves estrangeiras da tabela CIDADE;
 * Cidade: Tabela que armazena as informações relativas ao nome da cidade;
+	- Id: Identificador único que caracteriza as tuplas inseridas na tabela;
 	- Nome: Campo que armazena o nome da cidade a ser cadastrada no sistema;
-* Estado:  Tabela que armazena as informações relativas ao nome do Estado;
+	- Fk_ESTADO_id: Campo que armazena as chaves estrangeiras da tabela ESTADO;
+* Estado: Tabela que armazena as informações relativas ao nome do Estado;
+	- Id: Identificador único que caracteriza as tuplas inseridas na tabela;
 	- Nome: Campo que armazena o nome do estado a ser cadastrado no sistema;
 * Pais: Tabela que armazena as informações relativas ao nome do país;
-	- Nome: Campo que armazena o nome do país a ser cadastrado no sistema;
+	- Id: Identificador único que caracteriza as tuplas inseridas na tabela;
+	- Nome: Campo que armazena o nome do país a ser cadastrado no sistema; 
 * Boia: Tabela que armazena as informações relativas à uma bóia cadastrada no sistema;
- 	- Ref_ponto_col: Campo que armazena o ponto de referência de uma bóia;
+ 	- Id: Identificador único que caracteriza as tuplas inseridas na tabela;
+	- Ref_ponto_col: Campo que armazena o ponto de referência de uma bóia;
  	- Latitude: Campo que armazena o valor da latitude de uma bóia;
  	- Longitude: Campo que armazena o valor da longitude de uma bóia;
+	- Fk_PRAIA_id: Campo que armazena as chaves estrangeiras da tabela PRAIA;
 * Sensor: Tabela que armazena as informações relativas ao sensor que serão cadastradas no sistema;
- 	- Num_serie: Campo que armazena o número de série do sensor;
+ 	- Id: Identificador único que caracteriza as tuplas inseridas na tabela;
+	- Num_serie: Campo que armazena o número de série do sensor;
  	- Data_aquisicao: Campo que armazena o valor da data de aquisição do respectivo sensor;
- 	- Data_prox_manut: Campo que armazena o data da próxima manutenção do sensor.
-* Tipo_Sensor: Tabela que armazena informações relativas a qual tipo de sensor serão cadastrados
-	- Nome: campo que armazena o nome do sensor
+ 	- Data_prox_manut: Campo que armazena o data da próxima manutenção do sensor;
+	- Fk_FABRICANTE_id: Campo que armazena as chaves estrangeiras da tabela FABRICANTE;
+* Tipo_Sensor: Tabela que armazena informações relativas a qual tipo de sensor serão cadastrados;
+	- Id: Identificador único que caracteriza as tuplas inseridas na tabela;
+	- Nome: Campo que armazena o nome do sensor;
+* Sensor_Tipo: Tabela que armazena informações relativas à tabela TIPO_SENSOR e SENSOR;
+	- Fk_sensor_id: Campo que armazena as chaves estrangeiras da tabela SENSOR;
+	- Fk_TIPO_SENSOR_id: Campo que armazena as chaves estrangeiras da tabela TIPO_SENSOR;
 * Fabricante: Tabela que armazena as informações relativas ao fabricante do sensor;
-	- Nome: campo que armazena o nome do fabricante
-* Historico: Tabela que armazena informações relativas ao histórico de informações captadas pelos sensores
+	- Id: Identificador único que caracteriza as tuplas inseridas na tabela;
+	- Nome: Campo que armazena o nome do fabricante;
+* boia_sensor_Relacao_1: Tabela que armazena informações relativas às boias e sensores que realizam as coletas;
+	- Id_boia_sensor: Identificador único que caracteriza as tuplas inseridas na tabela;
+	- Fk_boia_id: Campo que armazena as chaves estrangeiras da tabela BOIA;
+	- Fk_sensor_id: Campo que armazena as chaves estrangeiras da tabela SENSOR;
+* Historico: Tabela que armazena informações relativas ao histórico de informações captadas pelos sensores;
+	- Id_col: Identificador único que caracteriza as tuplas inseridas na tabela;
 	- Valor: Campo que armazena o valor captado pela coleta;
 	- Data: Campo que armazena o valor da hora em que a coleta é realizada;
- 	- Hora: Campo que armazena o valor da hora em que a coleta é realizada.
+ 	- Hora: Campo que armazena o valor da hora em que a coleta é realizada;
+	- Fk_boia_sensor_Relacao_1_id_boia_sensor: Campo que armazena as chaves estrangeiras da tabela boia_sensor_Relacao_1.
 
 ### 6	MODELO LÓGICO<br>
 
