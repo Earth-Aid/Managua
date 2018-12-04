@@ -383,9 +383,51 @@ Depois:
 ![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.5.6.PNG)
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
-        a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
-        b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
+
+![Alt text]()
+
+SELECT SENSOR.num_serie, FABRICANTE.nome, SENSOR.data_aquisicao FROM SENSOR
+INNER JOIN FABRICANTE ON (SENSOR.fk_fabricante_id = FABRICANTE.id)
+ORDER BY SENSOR.num_serie desc
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.6.2.PNG)
+
+SELECT BOIA.id AS "Id da boia", BOIA.ponto_ref_col AS "Ponto de referência da boia", 
+SENSOR.num_serie AS "Número de série do sensor", SENSOR.data_aquisicao AS "Data de aquisição",
+SENSOR.data_prox_manutencao AS "Data da próxima manutenção" FROM BOIA_SENSOR_RELACAO_1
+INNER JOIN BOIA ON (BOIA_SENSOR_RELACAO_1.fk_boia_id = BOIA.id)
+INNER JOIN SENSOR ON (BOIA_SENSOR_RELACAO_1.fk_sensor_id = SENSOR.id)
+ORDER BY BOIA.ID
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.6.3.PNG)
+
+![Alt text]()
+
+![Alt text]()
+
+![Alt text]()
+
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
+
+SELECT CIDADE.nome, count(PRAIA.nome) AS "Quantidade de praias cadastradas" FROM PRAIA
+INNER JOIN CIDADE ON (PRAIA.fk_cidade_id = CIDADE.id)
+GROUP BY CIDADE.nome
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.7.1.PNG)
+
+SELECT avg(valor) AS "Valor médio da precipitação de chuva" FROM HISTORICO
+WHERE fk_boia_sensor_relacao_1 = 4
+
+![Alt text](https://github.com/Earth-Aid/Managua/blob/master/9.7.2.PNG)
+
+![Alt text]()
+
+![Alt text]()
+
+![Alt text]()
+
+![Alt text]()
+
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
         a) Uma junção que envolva Self Join
